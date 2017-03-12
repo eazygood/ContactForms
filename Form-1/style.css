@@ -1,0 +1,80 @@
+@import "https://fonts.googleapis.com/css?family=Roboto";
+
+#main {
+	width: 830px;
+	height: 650px;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+hr {
+	margin-top: -5px;
+}
+
+#form {
+	text-align: center;
+	border: 1px solid #eee;
+	width: 300px;
+	margin-top: 20px;
+	padding: 0 50px 15px;
+	box-shadow: 0 0 5px #eee;
+	border-radius: 6px;
+	float: left;
+}
+
+label {
+	float: left;
+	font-size: 16px;
+}
+
+input[type="text"] {
+	width: 100%;
+	margin-top: 10px;
+	height: 35px;
+	margin-bottom: 25px;
+	padding: 10px;
+	border: 1px solid #2bc1f2;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+textarea {
+	width: 100%;
+	border: 1px solid #2bc1f2;
+	padding: 10px;
+	margin-bottom: 25px;
+	margin-top: 10px;
+	height: 100px;
+	resize: none;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+input[type="submit"] {
+	width: 100%;
+	padding: 10px 45px;
+	background-color: #2bc1f2;
+	border: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+input[type="file"] {
+	width: 100%;
+	border: 1px solid #2bc1f2;
+	box-sizing: border-box;
+	margin-bottom: 25px;
+}
+
+input:focus::-webkit-input-placeholder {
+	color: transparent;
+	transition: 0.3s ease all;
+}
+
+textarea:focus::-webkit-input-placeholder {
+	color: transparent;
+	transition: 0.3s ease all;
+}
